@@ -5,7 +5,7 @@ client.setEncoding('utf8');
 
 client.connect('16203', 'tcp://0.tcp.ngrok.io', () => {
 	console.log('connected to server');
-	client.write('Who needs a browser to communicate?');
+	client.write('Hi guy!');
 });
 
 process.stdin.resume();
